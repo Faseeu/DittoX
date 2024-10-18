@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Progress</title>
+</head>
+<body>
+    <h1>Building Application...</h1>
+    <div id="progress-output">
+        {{ progress_output | safe }}
+    </div>
+    <script>
+        function updateProgress() {
+            fetch('/progress')
+                .then(response => response.json())
+                .then(data => {
+                    document.getElementById('progress-output').innerHTML = data.output;
+                    if (!data.completed) {
+                        setTimeout(updateProgress, 2000);
+                    }
+                });
+        }
+        updateProgress();
+    </script>
+</body>
+</html>

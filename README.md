@@ -2,7 +2,7 @@
 
 [![License](https://img.shields.io/github/license/faseeu/dittox)](LICENSE)
 
-**dittoX** - *the advanced twin simplest self-building coding agent for FastAPI*.
+**dittoX** - *the advanced twin of simplest self-building coding agent for FastAPI*.
 
 
 ![Image Description](ditto.png)

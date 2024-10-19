@@ -7,7 +7,7 @@
 
 ![Image Description](ditto.png)
 
-dittoX is a fork of the original [Ditto](https://github.com/yoheinakajima/ditto) project, adapted to work with FastAPI instead of Flask. This tool allows you to generate a multi-file FastAPI application from simple natural language descriptions using a no-code interface. By leveraging a simple LLM loop with a few tools, dittoX automates the coding process, (occasionally) turning your ideas into functional web applications (or at least trying and getting close).
+**dittoX** is a fork of the original [Ditto](https://github.com/yoheinakajima/ditto) project, adapted to work with FastAPI instead of Flask. This tool allows you to generate a multi-file FastAPI application from simple natural language descriptions using a no-code interface. By leveraging a simple LLM loop with a few tools, dittoX automates the coding process, (occasionally) turning your ideas into functional web applications (or at least trying and getting close).
 
 ## Features 🌟
 

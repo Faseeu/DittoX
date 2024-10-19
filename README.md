@@ -1,4 +1,4 @@
-## dittoX 🚀
+## DittoX 🚀
 
 [![License](https://img.shields.io/github/license/faseeu/dittox)](LICENSE)
 
